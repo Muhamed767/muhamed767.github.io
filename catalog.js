@@ -1,0 +1,326 @@
+// Резервный каталог. На опубликованном сайте приоритет у данных из админки.
+window.CATALOG = {
+  "contentRelease": "negotiable-kbr-20261008",
+  "settings": {
+    "name": "Беслан",
+    "telegram": "customcarsB",
+    "whatsapp": "79622228489",
+    "email": "",
+    "headline": "Русификация автомобилей в КБР.",
+    "region": "Работаем по КБР",
+    "serviceFormat": "Место и время работы по КБР — по договорённости.",
+    "serviceDescription": "Русское меню мультимедиа, приложения и голосовой помощник. Проверим возможности вашей машины и согласуем стоимость до начала работы.",
+    "priceMode": "negotiable",
+    "price": 10000
+  },
+  "cars": [
+    {
+      "id": "uni-z-2026",
+      "brand": "Changan",
+      "name": "UNI-Z",
+      "year": "2026",
+      "version": "Модельный год 2026",
+      "rest": "Обновление модельного года; версия по рынку",
+      "body": "Кроссовер",
+      "engine": "Бензин 1.5T или подключаемый гибрид 1.5L",
+      "gear": "7DCT (бензин) / гибридная трансмиссия",
+      "drive": "Передний",
+      "note": "Модельный год не всегда совпадает с датой производства. Бензиновая и гибридная версии отличаются мультимедиа и комплектацией.",
+      "source": "https://data.carnewschina.com/database/changan/changan-uni-z-phev/2026",
+      "photoSource": "https://www.bitauto.com/article/1003108613962/",
+      "images": [
+        "/assets/uni-z-2026.webp"
+      ],
+      "priceMode": "from",
+      "price": 10000,
+      "visible": true,
+      "description": "Русский язык, приложения, голосовой помощник и приборная панель. Перевод 85% — 10 000 ₽; перевод 99% — 14 000 ₽."
+    },
+    {
+      "id": "uni-v-2026",
+      "brand": "Changan",
+      "name": "UNI-V",
+      "year": "2026",
+      "version": "Китайская версия · обновление 2025",
+      "rest": "Второй рестайлинг; в Китае — «3-е поколение»",
+      "body": "Лифтбек",
+      "engine": "Бензин 1.5T или 2.0T",
+      "gear": "7DCT (1.5T) / 8AT (2.0T)",
+      "drive": "Передний",
+      "note": "На фото — обновлённая китайская версия. Российские и китайские UNI-V одного модельного года могут различаться.",
+      "source": "https://www.kolesa.ru/news/novyi-changan-uni-v-s-topovym-motorom-predlozen-po-privlekatelnoi-cene",
+      "images": [
+        "/assets/uni-v-2026.webp"
+      ],
+      "priceMode": "from",
+      "price": 10000,
+      "visible": true,
+      "description": "Русский язык, приложения, голосовой помощник и приборная панель. Перевод 85% — 10 000 ₽; перевод 99% — 14 000 ₽."
+    },
+    {
+      "id": "uni-z-2025",
+      "brand": "Changan",
+      "name": "UNI-Z",
+      "year": "2025",
+      "version": "Исходный кузов · модельный год 2025",
+      "rest": "До крупного обновления; исходный дизайн",
+      "body": "Кроссовер",
+      "engine": "Бензин 1.5T или подключаемый гибрид 1.5L",
+      "gear": "7DCT (бензин) / гибридная трансмиссия",
+      "drive": "Передний",
+      "source": "https://i.ifeng.com/c/8jjanEuNNoF",
+      "images": [
+        "/assets/uni-z-2025.webp"
+      ],
+      "priceMode": "from",
+      "price": 8000,
+      "visible": true,
+      "description": "Русский язык и приложения — 8 000 ₽. С голосовым ассистентом — 12 000 ₽. Приборная панель не русифицируется."
+    },
+    {
+      "id": "cs75-pro",
+      "brand": "Changan",
+      "name": "CS75 Pro",
+      "year": "2026",
+      "version": "Китайская версия · обновлённый салон 2026",
+      "rest": "Обновлённая модель семейства X7 Plus",
+      "body": "Кроссовер",
+      "engine": "Бензин 1.5T",
+      "gear": "7-ступенчатая DCT",
+      "drive": "Передний",
+      "note": "Внешний вид и оснащение зависят от рынка и комплектации. Версию мультимедиа проверяем для вашей машины.",
+      "source": "https://www.cars.co.za/motoring-news/changan-cs75-pro-2026-review/338522/",
+      "images": [
+        "/assets/cs75-pro-exterior.webp"
+      ],
+      "priceMode": "from",
+      "price": 10000,
+      "visible": true,
+      "description": "Русский язык, приложения, голосовой помощник и приборная панель. Перевод 85% — 10 000 ₽; перевод 99% — 14 000 ₽.",
+      "contain": true,
+      "photoSource": "https://autospot.ru/brands/changan/cs75pro/suv/price/"
+    },
+    {
+      "id": "cs55-plus",
+      "brand": "Changan",
+      "name": "CS55 Plus",
+      "year": "2026",
+      "version": "Обновлённая экспортная версия",
+      "rest": "Рестайлинг кузова CS55 Plus образца 2021",
+      "body": "Кроссовер",
+      "engine": "Бензин 1.5T",
+      "gear": "7-ступенчатая DCT",
+      "drive": "Передний",
+      "note": "В карточке показана бензиновая экспортная версия. Гибридные версии для других рынков имеют отдельные характеристики.",
+      "source": "https://noticias.autocosmos.cl/2026/03/05/changan-cs55-plus-2026-en-chile-madurez-en-diseno-y-tecnologia",
+      "images": [
+        "/assets/cs55-plus.webp"
+      ],
+      "priceMode": "from",
+      "price": 10000,
+      "visible": true,
+      "description": "Русский язык, приложения, голосовой помощник и приборная панель. Перевод 85% — 10 000 ₽; перевод 99% — 14 000 ₽."
+    },
+    {
+      "id": "q05-new",
+      "brand": "Changan",
+      "name": "Q05",
+      "year": "2026",
+      "version": "Qiyuan / NEVO · новая электрическая модель",
+      "rest": "Новое поколение, представлено в 2025",
+      "body": "Кроссовер",
+      "engine": "Электромобиль (BEV)",
+      "gear": "Одноступенчатый редуктор",
+      "drive": "Передний",
+      "note": "Новый электрический Q05 отличается от прежнего гибридного Q05. На фото — китайская версия 506 Max.",
+      "source": "https://www.globalchangan.com/newsroom/CHANGAN-THAILAND-Officially-Launches-NEVO-Q05.html",
+      "photoSource": "https://www.autohome.com.cn/cars/imgs-8241-74167-1-13444/12145323.html",
+      "images": [
+        "/assets/q05-new.webp"
+      ],
+      "priceMode": "fixed",
+      "price": 14000,
+      "visible": true,
+      "description": "Русский язык 100%, приложения и голосовой помощник. Совместимость проверяем по версии мультимедиа."
+    },
+    {
+      "id": "cs75-4",
+      "brand": "Changan",
+      "name": "CS75 Plus",
+      "year": "с 2024",
+      "version": "4-е поколение",
+      "rest": "Новый кузов; четвёртое поколение",
+      "body": "Кроссовер",
+      "engine": "Бензин 1.5T / 2.0T; РФ — 2.0T",
+      "gear": "8-ступенчатый автомат",
+      "drive": "Передний / полный; РФ — полный",
+      "note": "Двигатель и привод зависят от рынка. Официальная российская версия отличается от части китайских комплектаций.",
+      "source": "https://changanauto.ru/model/cs75plus-gen4",
+      "contain": true,
+      "images": [
+        "/assets/cs75-4.webp"
+      ],
+      "priceMode": "from",
+      "price": 10000,
+      "visible": true,
+      "description": "Русский язык, приложения и голосовой ассистент. Без приборной панели — 10 000–12 000 ₽; с приборной панелью — 16 000–18 000 ₽."
+    },
+    {
+      "id": "cs75-2",
+      "brand": "Changan",
+      "name": "CS75 Plus",
+      "year": "с 2022",
+      "version": "2-е поколение",
+      "rest": "Рестайлинг; обозначается как второе поколение",
+      "body": "Кроссовер",
+      "engine": "Бензин 1.5T или 2.0T",
+      "gear": "8-ступенчатый автомат",
+      "drive": "Передний",
+      "note": "Речь о CS75 Plus второго поколения. Обычный CS75 и CS75 Plus 2019 имеют другой внешний вид.",
+      "source": "https://www.autohome.com.cn/news/202202/1239263.html",
+      "photoSource": "https://www.autoindustriya.com/auto-industry-news/changan-made-2022-cs75-plus-look-even-meaner.html",
+      "images": [
+        "/assets/cs75-2.webp"
+      ],
+      "priceMode": "from",
+      "price": 7000,
+      "visible": true,
+      "description": "Русский язык и установка приложений. Стоимость 7 000–10 000 ₽ в зависимости от версии системы."
+    },
+    {
+      "id": "q05-old",
+      "brand": "Changan",
+      "name": "Q05",
+      "year": "2023–2025",
+      "version": "Qiyuan · исходная гибридная модель",
+      "rest": "Исходная версия на базе CS55 Plus",
+      "body": "Кроссовер",
+      "engine": "Подключаемый гибрид (PHEV), 1.5L",
+      "gear": "Гибридная трансмиссия",
+      "drive": "Передний",
+      "note": "На фото — прежний гибридный Q05. Это не новый электрический Q05 2026.",
+      "source": "https://fashion.sohu.com/a/743417438_120892863",
+      "images": [
+        "/assets/q05-clean.webp"
+      ],
+      "priceMode": "fixed",
+      "price": 14000,
+      "visible": true,
+      "description": "Русский язык 100%, приложения и голосовой помощник. Совместимость проверяем по версии мультимедиа."
+    },
+    {
+      "id": "deepal-s05",
+      "brand": "Deepal",
+      "name": "S05",
+      "year": "2024–2026",
+      "version": "Китайская версия · исходный кузов",
+      "rest": "Первое поколение; дебют в 2024",
+      "body": "Кроссовер",
+      "engine": "Электромобиль (BEV) / последовательный гибрид (REEV)",
+      "gear": "Электрическая трансмиссия",
+      "drive": "Задний; на отдельных рынках — полный",
+      "note": "Фото китайского S05 2026 620 Ultra. Европейские и китайские версии различаются силовыми установками и приводом.",
+      "source": "https://www.globalchangan.com/newsroom/the-changan-deepal-s05-arrives-in-the-uk-engineered-globally-tuned-locally.html",
+      "photoSource": "https://www.autohome.com.cn/cars/imgs-7740-74037-1-x/11867791.html",
+      "images": [
+        "/assets/deepal-s05.webp"
+      ],
+      "priceMode": "fixed",
+      "price": 20000,
+      "visible": true,
+      "description": "Русский язык 100%, приложения и голосовой помощник. Совместимость проверяем по версии мультимедиа."
+    },
+    {
+      "id": "camry-80",
+      "brand": "Toyota",
+      "name": "Camry 80",
+      "year": "2026",
+      "version": "XV80 · китайская версия 2026",
+      "rest": "Новый кузов; до рестайлинга",
+      "body": "Седан",
+      "engine": "Бензин 2.0L / гибрид; зависит от комплектации",
+      "gear": "CVT / e-CVT; зависит от версии",
+      "drive": "Передний (китайская версия)",
+      "note": "Внешний вид и оснащение зависят от рынка и комплектации. Версию мультимедиа проверяем для вашей машины.",
+      "source": "https://pressroom.toyota.com/toyota-unveils-the-powerful-and-purely-hybrid-next-generation-camry/",
+      "photoSource": "https://www.drom.ru/catalog/toyota/camry/g_2023_20479/",
+      "contain": true,
+      "images": [
+        "/assets/camry-80-silver.webp"
+      ],
+      "priceMode": "from",
+      "price": 12000,
+      "visible": true,
+      "description": "Русский язык и установка приложений. Стоимость 12 000–15 000 ₽ в зависимости от версии системы."
+    },
+    {
+      "id": "coolray",
+      "brand": "Geely",
+      "name": "Coolray",
+      "year": "2025",
+      "version": "New Coolray · обновлённый кузов",
+      "rest": "Рестайлинг; международный New Coolray",
+      "body": "Компактный кроссовер",
+      "engine": "Бензин 1.5T",
+      "gear": "7-ступенчатая DCT",
+      "drive": "Передний",
+      "note": "Оснащение различается по рынкам. Проверка мультимедиа проводится для вашей конкретной машины.",
+      "source": "https://www.geely.com/en/news/2025/geely-coolray-one-million-global",
+      "photoSource": "https://atara.bg/avtomobili-revuta/atara-revu-geely-coolray-2025-moderen-dinamichen-i",
+      "images": [
+        "/assets/coolray.webp"
+      ],
+      "priceMode": "from",
+      "price": 15000,
+      "visible": true,
+      "description": "Русский язык, приложения и голосовой ассистент. Стоимость 15 000–20 000 ₽."
+    },
+    {
+      "id": "aion-i60",
+      "brand": "GAC",
+      "name": "AION i60",
+      "year": "2026",
+      "version": "AION · дебют в ноябре 2025",
+      "rest": "Первое поколение; до рестайлинга",
+      "body": "Кроссовер",
+      "engine": "Электромобиль (BEV) / последовательный гибрид (EREV)",
+      "gear": "Электрическая трансмиссия",
+      "drive": "Передний",
+      "note": "Внешний вид и оснащение зависят от рынка и комплектации. Версию мультимедиа проверяем для вашей машины.",
+      "source": "https://www.prnewswire.com/apac/news-releases/aions-first-dual-power-model-of-extended-range-and-pure-electric-aion-i60-officially-launched-302617092.html",
+      "photoSource": "https://www.autohome.com.cn/cars/imgs-8245-75528-1-9109/12304004.html",
+      "images": [
+        "/assets/aion-i60-exterior.webp"
+      ],
+      "priceMode": "from",
+      "price": 8000,
+      "visible": true,
+      "description": "Русский язык 85% и приложения. Стоимость 8 000–10 000 ₽.",
+      "contain": true
+    },
+    {
+      "id": "gac-s7",
+      "brand": "GAC",
+      "name": "S7",
+      "year": "2025–2026",
+      "version": "Российская версия · 2026",
+      "rest": "Первое поколение; до рестайлинга",
+      "body": "Кроссовер",
+      "engine": "Последовательный гибрид: 1.5T и два электромотора",
+      "gear": "Электрическая трансмиссия",
+      "drive": "Полный (российская версия)",
+      "note": "Модель дебютировала в Китае в 2025, российская версия появилась в 2026. Параметры китайских комплектаций могут отличаться.",
+      "source": "https://gac.ru/news/kompaniya-gac-raskryvaet-tehnicheskie-harakteristiki-novogo-gibridnogo-krossovera-gac-s7",
+      "contain": true,
+      "images": [
+        "/assets/gac-s7.webp"
+      ],
+      "priceMode": "negotiable",
+      "price": 10000,
+      "visible": true
+    }
+  ],
+  "designRelease": "graphite-20261016",
+  "photoRelease": "interiors-20261016-v2",
+  "exteriorRelease": "exteriors-20261021"
+};
