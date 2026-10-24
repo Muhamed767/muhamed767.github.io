@@ -277,3 +277,7 @@ dialog::backdrop { background: #000c; backdrop-filter: blur(8px); }
 :is(.car[data-id="cs75-pro"], .car[data-id="camry-80"], .car[data-id="aion-i60"]) .car-photo.contain img { padding: 14px; }
 @media (max-width: 1100px) and (min-width: 851px) { .nav { gap: 14px; } nav { gap: 14px; font-size: 10px; } .brand { font-size: 20px; } .nav-contact { font-size: 12px; } .nav-contact span { margin-left: 8px; } }
 @media (max-width: 600px) { .nav { flex-wrap: wrap; gap: 8px 14px; padding-block: 14px; } .brand { margin-right: auto; } .instagram-link { font-size: 11px; padding: 9px 11px; } .nav-contact { display: none; } }
+
+/* Keep image error notices inside their own image block. */
+.hero-media,.car-photo,.service-photo,.gallery{position:relative;}
+
