@@ -630,11 +630,15 @@ async function load() {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 8000);
   try {
-    const response = await fetch(API_BASE + '/api/catalog', {
-      cache: 'no-store', credentials: 'omit', signal: controller.signal
+    const config = window.CUSTOMCARS_SUPABASE;
+    if (!config?.url || !config?.publishableKey) throw Error('Не настроен каталог');
+    const response = await fetch(config.url + '/rest/v1/site_catalog?id=eq.customcarsb&select=payload&limit=1', {
+      cache: 'no-store', credentials: 'omit', signal: controller.signal,
+      headers: { apikey: config.publishableKey }
     });
     if (!response.ok) throw Error('Каталог недоступен');
-    const data = await response.json();
+    const rows = await response.json();
+    const data = rows[0]?.payload;
     applyCatalog(data, true);
     document.querySelector('#sync-status').textContent = '';
     // Open a deep link only after the freshest catalog has arrived.
